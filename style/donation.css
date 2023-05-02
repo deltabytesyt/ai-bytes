@@ -1,0 +1,162 @@
+body {
+    background-color: #f5deb3;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #663300;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav {
+    display: inline-block;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    color: #f5deb3;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    text-align: left;
+  }
+  
+  label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="number"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+  }
+  
+  input[type="submit"] {
+    background-color: #663300;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    /* text-align: center; */
+    background-color: #fff;
+    margin-top: 30px;
+  }
+  
+  section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .bitcoin, .monero, .mpesa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bitcoin img, .monero img, .mpesa img {
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .bitcoin p, .monero p, .mpesa p {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  .box {
+    width: 240px;
+    border: 1px solid #c4ed3e;
+    padding: 5px ;
+    margin-left: 245px;
+    
+  }
+  
+  .box {
+    overflow-wrap: break-word;
+   
+  }
+  
+  
+  .github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .github img {
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  .github p {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  
+  footer {
+    background-color: #663300;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  

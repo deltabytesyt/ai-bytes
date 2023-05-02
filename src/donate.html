@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Donate | My Website</title>
+	<link rel="stylesheet" type="text/css" href="/style/donation.css">
+</head>
+<body>
+	<header>
+		<h1>My Website</h1>
+		<nav>
+			<ul>
+				<li><a href="/index.html">Home</a></li>
+				<li><a href="/src/about.html">About</a></li>
+				<li><a href="/src/tools.html">Tools</a></li>
+				<li class="active"><a href="/src/donate.html">Donate</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>PayPal Donation</h2>
+			<p>If you would like to donate using PayPal, please click on the button below:</p>
+			<form action="https://www.paypal.com/donate" method="post" target="_top">
+				<input type="hidden" name="hosted_button_id" value="EYRTNM944HTUU" />
+				<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+				<img alt="" border="0" src="https://www.paypal.com/en_KE/i/scr/pixel.gif" width="1" height="1" />
+			</form>
+				
+		</section>
+		<section>
+			<h2>Bitcoin and Monero Donation</h2>
+			<p>If you would like to donate using Bitcoin or Monero, please use the addresses below:</p>
+			<div class="donation-address">
+				<label for="bitcoin-address">Bitcoin Address:</label>
+				<label for="bitcoin-address">36U51McyZsg61BSe7Rd29xkBvUFoHpHDR5</label>
+				<!-- <input type="text" id="bitcoin-address" value="yourbitcoinaddress"> -->
+			</div>
+			<div class="donation-address">
+				<label for="monero-address">Monero Address:</label>
+				<div class="box">
+					42Mp1z5bBFgBBPpqZcs21jKr8pqYHXrj9A2yefMQcrmc5Dn23YpW9UK4f4xQw4jmXdPdHyynTW2HEQGg15kHfANh5RAyPeS
+				</div>
+				
+				<a target="_blank"><img src="Monero request.png"></a>
+				<!-- <input type="text" id="monero-address" value="yourmoneroaddress"> -->
+			</div>
+		</section>
+		<section>
+			<h2>Mpesa and GitHub Sponsorship</h2>
+			<p>If you would like to donate using Mpesa or become a GitHub Sponsor, please use the details below:</p>
+			<div class="donation-address">
+				<label for="mpesa-number">Mpesa Number:</label>
+				<!-- <input type="text" id="mpesa-number" value="yourmpesanumber"> -->
+			</div>
+			<div class="donation-address">
+				<a href="/src/donate.html" target="_blank"><img src="https://github.githubassets.com/images/modules/site/sponsors/pixel-mona-heart.gif"></a>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 My Website</p>
+	</footer>
+</body>
+</html>

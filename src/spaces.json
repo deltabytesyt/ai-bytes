@@ -1,0 +1,46 @@
+
+[ {
+    "name":"All-in-One Art Prompt Generator",
+    "src": "https://treadon-prompt-fungineer-355m.hf.space"
+  },
+  {
+    "name": "MiniGPT 4",
+    "src": "https://vision-cair-minigpt4.hf.space/?__theme=light"
+  },
+  {
+    "name": "Vision transformers",
+    "src": "https://8cacnaqfragji-vision-transformer.hf.space/?__theme=light"
+  },
+  {
+    "name": "Picasso Diffusion 1.1 Demo",
+    "src": "https://aipicasso-picasso-diffusion-latest-demo.hf.space"
+  },
+  {
+    "name": "Openjourney-v4",
+    "src": "https://probutpratzo-prompthero-openjourney-v4.hf.space/?__theme=light"
+  },
+  {
+    "name": "Open AI Whisper",
+    "src": "https://granepstite-openaistt.hf.space/?__theme=light"
+  },
+  {
+    "name":"DreamLikeArt Anime",
+    "src": "https://phenomenon1981-dreamlikeart-anime-1-0.hf.space"
+  },
+  {
+    "name":"DreamLikeArt Diffusion",
+    "src": "https://iamtfrmza-dreamlikeart-diffusion-1-0.hf.space/?__theme=light"
+  },
+  {
+    "name":"ChatBot",
+    "src": "https://h2oai-h2ogpt-chatbot.hf.space/?__theme=light"
+  },
+  {
+    "name": "HuggingChat",
+    "src": "https://huggingchat-chat-ui.hf.space/chat/?__theme=light"
+  },
+  {
+    "name": "Demucs",
+    "src": "https://kevin676-demucs-v4.hf.space/?__theme=light"
+  }
+]
